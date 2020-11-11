@@ -1,0 +1,27 @@
+body {
+  postion: relative;
+}
+
+.child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+h1 {
+	text-align: center;
+	padding: 10px;
+}
+
+#quoteDisplay {
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
